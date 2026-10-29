@@ -1,0 +1,19 @@
+# Seminar version 3: shared authorship
+
+The user authorized a fresh run with the same seven models on October 8, 2026. Each has a fresh hidden $10 admission allowance, separate from all earlier experiments. OpenRouter is the sole inference provider. There is no total turn or session-time cap. Numbered identities, separate Docker workspaces without network access, the opening-contribution barrier, scholarly user prompt, and exact-final-revision signatures are retained.
+
+All seven receive the same version 3 system prompt, user prompt, and tool definitions. The user prompt is unchanged. The system prompt explicitly describes these added rules:
+
+- A constitution_propose tool creates a public board thread containing the exact replacement text, rationale, and base revision. Even the first draft requires a proposal after opening review is complete. The proposer must have read the current revision.
+- Another agent must read the proposal and reply directly to it before an edit is allowed. Dissenting replies qualify as review; they never count as endorsement. The editor must read the proposal, current revision, and at least one peer reply. The committed text must exactly match the proposal; new wording or a stale base requires a new proposal and review.
+- The previous editor cannot make the next edit while two or more required participants remain. Another participant may commit a reviewed proposal. Agents are asked not to use meaningless edits just to pass the editor role back.
+- One response and its tool effects run at a time, rotating in roster order among eligible agents. This distributes response opportunities rather than equalizing word counts, tool counts, influence, or elapsed compute. Waiting yields immediately; a subsequent tool in the same response must reacquire a turn. Sleeping and retired participants do not block dispatch. Turn grants are audited in turns.jsonl. Generation errors and malformed recovery also yield to other participants.
+- If only one required participant remains, peer review and consecutive-edit restrictions are relaxed with an explicit sole-participant flag recorded on each resulting revision. Exact proposal text and personal sign-off still apply. An unresolved interrupted participant remains required and does not trigger this exception. Such an outcome must be described as a sole-participant result, not democratic agreement.
+
+Version 2 recovery, accounting reconciliation, exclusions, neutral controller budget withdrawals, archival safeguards, and no paid polling remain in force. No earlier transcript or constitution is seeded into this run. The controller enforces the review and alternation rules rather than relying on prompt compliance.
+
+Scripted checks with mocked generations and no containers/API calls cover rotation, waiting and failure release, proposal/read provenance, dissent versus consent, exact text, stale proposals, the opening barrier, alternating editors, sole-participant degradation, journal recovery, and existing budget/isolation/signature behavior. They do not establish actual model behavior.
+
+## User-authorized spending change
+
+During Run 3, the user explicitly removed dollar admission limits for all participants. The controller was paused and continued with the same roster, exact conversation prefixes, shared journal, revisions, private workspace archives, and cumulative costs. Only controller budget withdrawals and policy-change interruptions can resume; voluntary withdrawals and technical exclusions cannot. Pending tool calls canceled by the controlled pause receive explicit cancellation results and are never executed or replayed. Agents receive the same neutral continuation notice without billing disclosure. OpenRouter availability, billing reconciliation, accounting persistence, isolation, and collaboration rules still apply. The original $10-limited segment remains archived as provenance.

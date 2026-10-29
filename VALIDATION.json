@@ -1,0 +1,8 @@
+{
+  "offline_tests_passed": 46,
+  "scripted_tests": true,
+  "live_authorized": true,
+  "docker_readiness_verified_agents": 7,
+  "current_run": "/Users/jchang153/Documents/GitHub/agent-constitution/runs/20261008T212911Z_seminar_dabe5908",
+  "monitor_interval_minutes": 5
+}

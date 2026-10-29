@@ -1,0 +1,13 @@
+.env
+config.json
+model-catalog.json
+runs/
+prepared/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Local run state, spending snapshots and logs
+CURRENT_RUN.json
+*-monitor-state.json
+*.log

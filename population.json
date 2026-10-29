@@ -1,0 +1,35 @@
+{
+  "provider": "openrouter",
+  "catalog_source": "https://openrouter.ai/api/v1/models",
+  "verified_date": "2026-10-08",
+  "participants": [
+    {
+      "agent_id": "agent-001",
+      "model": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "agent_id": "agent-002",
+      "model": "openai/gpt-6-luna"
+    },
+    {
+      "agent_id": "agent-003",
+      "model": "anthropic/claude-haiku-5.5"
+    },
+    {
+      "agent_id": "agent-004",
+      "model": "google/gemini-3.8-flash"
+    },
+    {
+      "agent_id": "agent-005",
+      "model": "x-ai/grok-4.7"
+    },
+    {
+      "agent_id": "agent-006",
+      "model": "moonshotai/kimi-k3"
+    },
+    {
+      "agent_id": "agent-007",
+      "model": "z-ai/glm-5.3-flash"
+    }
+  ]
+}

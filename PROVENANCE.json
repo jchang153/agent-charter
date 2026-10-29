@@ -1,0 +1,16 @@
+{
+  "copied_modules": {
+    "budget.py": {
+      "source": "/Users/jchang153/Documents/GitHub/healing-agent-swarms/experiments/impossible_budget.py",
+      "sha256": "74b47a58854d897fc106213e24da5bc5a4048f38abce9ee8538f06468d496dbd",
+      "copied_sha256": "74b47a58854d897fc106213e24da5bc5a4048f38abce9ee8538f06468d496dbd"
+    },
+    "secrets.py": {
+      "source": "/Users/jchang153/Documents/GitHub/healing-agent-swarms/healing_swarm/secrets.py",
+      "sha256": "e1a662814a92d9dc01751eccb0af43fb491351aceb494b3d660c131f8dc9da10",
+      "copied_sha256": "e1a662814a92d9dc01751eccb0af43fb491351aceb494b3d660c131f8dc9da10"
+    }
+  },
+  "credentials_copied": false,
+  "git_initialized": false
+}
